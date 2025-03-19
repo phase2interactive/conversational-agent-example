@@ -1,0 +1,10 @@
+modal
+fastapi
+python-dotenv
+
+twilio
+
+langgraph
+langchain
+langchain-anthropic
+langchain-core==0.3.33
