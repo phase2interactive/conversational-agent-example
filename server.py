@@ -10,6 +10,7 @@ image = (modal.Image
          .pip_install_from_requirements("requirements.txt")
          .apt_install()
          .add_local_python_source(
+             "graphs"
          ).add_local_file(
            "router.py",
            "/root/router.py"
